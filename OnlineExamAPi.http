@@ -1,0 +1,6 @@
+@OnlineExamAPi_HostAddress = http://localhost:5182
+
+GET {{OnlineExamAPi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
