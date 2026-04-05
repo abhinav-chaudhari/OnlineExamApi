@@ -1,22 +1,25 @@
-# OnlineExamAPIs
-## 🔐 Features
-- JWT Authentication & Authorization
-- Role-based access (Admin / Student)
-- Exam & Question Management
-- Automated Result Evaluation
+# Online Examination System (ASP.NET Core Web API)
 
-## 🧠 Architecture
-- Layered architecture (Controller → Service → DB)
-- Clean separation of concerns
+## 🚀 Features
+- JWT Authentication
+- Role-based Authorization
+- Exam Management
+- Question Management
+- Result Evaluation
 
 ## 🛠 Tech Stack
-- ASP.NET Core Web API (.NET 8)
+- ASP.NET Core (.NET 8)
 - Entity Framework Core
 - SQL Server
-- JWT Authentication
 
-## 🚀 How to Run
-1. Clone repo
-2. Update connection string
-3. Run migrations
-4. Start project
+## 🧠 Architecture
+Controller → Service → Data Layer
+
+## 🔐 Security
+JWT Authentication
+
+## 📌 API Endpoints
+- /api/auth/login
+- /api/exam/create
+- /api/question/add
+- /api/result/submit
